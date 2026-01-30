@@ -34,8 +34,14 @@ git log --oneline
 
 Part 6: Working with Branches
 1.What command lists all branches in your repository?
+-> git branch --all
+
 2.What command creates a new branch called feature-script?
+->
+
 3.What command switches to the feature-script branch?
+
+
 4.What single command creates and switches to a new branch called dev?
 
 
