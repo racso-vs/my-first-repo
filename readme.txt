@@ -52,4 +52,16 @@ to do so i did : git switch feature-script
 to do so i did : git branch
 Since the only branch which was displayed in green was "feature-scripted", i knew i was on the correct branch.
 
-Part 7: Create a Bash Script on a Branch
+Part 8: Merge Branches
+3.What command merges feature-script into main? 
+->git merge feature-script (when we are on the main branch)
+
+4.List the files again. What changed?
+->we see the file install.sh being on the main branch
+
+5.Check your commit history. What do you observe?
+->we observe the merge with "Head -> main"
+
+6.What command deletes the feature-script branch after merging?
+->git branch -d "feature-script"
+
