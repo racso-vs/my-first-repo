@@ -37,11 +37,19 @@ Part 6: Working with Branches
 -> git branch --all
 
 2.What command creates a new branch called feature-script?
-->
-
 3.What command switches to the feature-script branch?
-
+->we can use to just create a branch : git branch "name-of-branch"
+->to swith then : git switch "name-of-branch"
 
 4.What single command creates and switches to a new branch called dev?
+->git switch -c dev 
+->git checkout -b dev
 
+5.Switch back to the feature-script branch.
+to do so i did : git switch feature-script
 
+6.Verify you are on the correct branch
+to do so i did : git branch
+Since the only branch which was displayed in green was "feature-scripted", i knew i was on the correct branch.
+
+Part 7: Create a Bash Script on a Branch
